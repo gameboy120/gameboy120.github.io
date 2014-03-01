@@ -4,8 +4,7 @@ redcarpet:
 permalink: /:year/:month/:day/:title 
 title: geng bo
 url: http://www.gblyz.cn
-githubEditBaseURL: https://github.com/gameboy120/gameboy120.github.com/edit/master/
-subscribe: http://ztpala.com/atom.xml
+subscribe: http://gblyz.cn/atom.xml
 exclude: [ README.md, newpost.rb ]
 domain: gblyz.cn
 author: geng bo
@@ -13,4 +12,3 @@ email: gengbo1014@gmail.com
 twitterID: 
 googleAnalyticsID: 
 disqusShortname: gameboy120
-timezone: America/New_York
