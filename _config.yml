@@ -2,13 +2,13 @@ markdown: redcarpet
 redcarpet:
   extensions: ["autolink", "tables", "strikethrough"]
 permalink: /:year/:month/:day/:title 
-title: geng bo
+title: 全球旅游者
 url: http://www.gblyz.cn
 subscribe: http://gblyz.cn/atom.xml
 exclude: [ README.md, newpost.rb ]
 domain: gblyz.cn
 author: geng bo
 email: gengbo1014@gmail.com
-twitterID: 
+twitterID: gameboy120
 googleAnalyticsID: 
 disqusShortname: gameboy120
