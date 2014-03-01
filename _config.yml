@@ -7,7 +7,7 @@ url: http://www.gblyz.cn
 githubEditBaseURL: https://github.com/gameboy120/gameboy120.github.com/edit/master/
 subscribe: http://ztpala.com/atom.xml
 exclude: [ README.md, newpost.rb ]
-domain: gblyz.com
+domain: gblyz.cn
 author: geng bo
 email: gengbo1014@gmail.com
 twitterID: 
