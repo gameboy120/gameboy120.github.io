@@ -12,9 +12,20 @@ layout: default
 <li><a href="/tag/#{{ tag }}">#{{ tag }}</a></li>
 {% endfor %}
 </div>
-<div class="meta">
-<a href="{{site:githubEditBaseURL}}{{ page.path }}">编辑本文</a> <a href="https://twitter.com/share?url={{site.url}}{{page.url}}&amp;via=ztpala&amp;text={{page.title}}" target="_blank">发推评论</a> 
-</div>
+<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"gblyz"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->
 <ul class="pager">
     {% if page.previous %}
     <li class="previous">
